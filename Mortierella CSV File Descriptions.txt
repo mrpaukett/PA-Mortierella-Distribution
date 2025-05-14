@@ -1,0 +1,49 @@
+Mortierella CSV File Descriptions
+
+********************
+Mortierella Presence
+********************
+Row 1: Mortierella spp. names
+Rows 2-30: Number of each Mortierella spp at sites 1-29 
+
+Note: Site information found in PA Sites Metadata file (site # = count column)
+
+
+********************
+Mortierella Metadata
+********************
+Column 1: Location = PA County
+Column 2: Code = Mortierella isolate number
+Column 3: Seq Result = Mortierella spp based on BLAST results
+Column 4: Sample Time = Soybean growth stage when soil sample collected
+          (V= Vegetative [early] stage, R = Flowering [late] stage, PH = Post-harvest, ST = unknown)
+Column 5: County Location = PA region county is grouped into (N, S, W)
+
+
+*****************
+PA Sites Metadata
+*****************
+Column 1: count = site # (sites 1-29 used in Mortierella Presence file)
+Column 2: county = PA County
+Column 3: lat = Latitude
+Column 4: long = Longitude
+Column 5: texture = Field soil texture (Loam, Sandy Loam, Silty Clay Loam, or Silt Loam)
+Column 6: group = PA region county is grouped into (N, SE, W)
+Column 7: elevation = field elevation
+Column 8: temprange = difference between max soil temperature and min soil temperature
+Column 9: rain = field rainfall totals
+Column 10: watervol = average soil volumetric water content
+Column 11: mintemp = field average minimum temperature
+Column 12: maxtemp = field average maximum temperature
+Column 13: precip = total precipitation (rainfall and snowfall totals combined)
+Column 14: snow	= field snowfall totals
+Column 15: temp = average field soil temperature
+
+Notes:
+Columns 3-5: Data from field history forms
+Column 7: Data from Google Earth
+Columns 8-15: Data from Copernicus Climate Change Service’s ‘ERA5-Land hourly data from 1950 to present’ dataset, representing the timeframe of April 1, 2018 to September 30, 2018
+
+
+***************************************************************************
+Counties were grouped into northern (Bradford, Centre, McKean, and Tioga), southeastern/south (Bucks, Dauphin, Lancaster, Lebanon, Northumberland, Perry, and Snyder), and western (Bedford, Butler, Cambria, Mercer, and Somerset) regions in data files.
